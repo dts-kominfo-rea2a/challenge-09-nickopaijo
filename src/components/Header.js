@@ -4,7 +4,7 @@ import React from "react";
 const Header = () => {
   return (
     <>
-      <div classname="Header">
+      <div className="Header">
         <h2>Your Contact</h2>
         <div>
           <span>List Contact</span>
