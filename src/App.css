@@ -1,4 +1,40 @@
 .App {
   text-align: center;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  border-bottom: 3px dotted #836866;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+  width: 50%;
+}
+
+.photos {
+  border-radius: 50%;
+  height: 180px;
+}
+
+.card {
+  background-color: #98af8e;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1em;
+  width: 40%;
+  margin-bottom: 1em;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 50%;
+}
+
+.card-body > span {
+  margin-bottom: 1em;
 }
