@@ -5,9 +5,9 @@ const Header = () => {
   return (
     <>
       <div className="Header">
-        <h2>Your Contact</h2>
+        <h2>call a friend</h2>
         <div>
-          <span>List Contact</span>
+          <span>your friendly contact app</span>
         </div>
       </div>
     </>
